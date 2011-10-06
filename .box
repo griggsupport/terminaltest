@@ -1,0 +1,24 @@
+shared_writable_dirs:
+    - cache
+    - images
+    - attachments
+           
+php_post_max_size: 250M
+    
+php_upload_max_filesize: 50M
+
+index_list:
+    - index.html
+    - index.htm
+    - index.php
+
+php_extensions: 
+    - mysql
+    - mysqli
+    - mcrypt
+    - mbstring
+    - xml
+    - zlib
+    - mysql
+    - imap
+    
